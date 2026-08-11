@@ -9,7 +9,12 @@ function onLoad(){
 
 
 function showPost(posts){
+    const getData=document.getElementById('showdata');
+    getData.innerHTML="";
 posts.forEach(post => {
-    
+    const li= document.createElement('li');
+    li.innerText=post.name;
+    getData.appendChild(li);
+    console.log(li)
 });
 }
