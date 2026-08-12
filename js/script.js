@@ -19,22 +19,22 @@
 // });
 // }
 
-const onLoad=()=>{
-    const url = "https://jsonplaceholder.typicode.com/posts";
-    fetch(url)
-    .then(res=>res.json())
-    .then(data=>{
-        displayData(data)
-    });
-}
+// const onLoad=()=>{
+//     const url = "https://jsonplaceholder.typicode.com/posts";
+//     fetch(url)
+//     .then(res=>res.json())
+//     .then(data=>{
+//         displayData(data)
+//     });
+// }
 
-const displayData=(posts)=>{
- const getId= document.getElementById('showdata');
- getId.innerHTML="";
+// const displayData=(posts)=>{
+//  const getId= document.getElementById('showdata');
+//  getId.innerHTML="";
  
- posts.forEach(post => {
-    const li=document.createElement('li')
-    li.innerHTML=post.title;
-    getId.appendChild(li)
- });
-}
+//  posts.forEach(post => {
+//     const li=document.createElement('li')
+//     li.innerHTML=post.title;
+//     getId.appendChild(li)
+//  });
+// }

@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Fetching</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Posts</title>
 </head>
-<body>
-    <button onclick="onLoad()">Load Data</button>
-    <ol id="showdata"></ol>
-    
+
+<body onload="onLoad()">
+
+    <h1>All Posts</h1>
+
+    <div id="showdata">
+
+        <!-- JavaScript এখানে data show করবে -->
+
+        <div>
+            <!-- create div in js -->
+            <div class="card">
+                    <p>User ID: </p>
+                <p>ID: </p>
+
+                <h2>Post Title</h2>
+
+                <p>
+                    Post body will appear here...
+                </p>
+
+                <hr>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
-<script src="js/script.js"></script>
 </html>
