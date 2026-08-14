@@ -49,7 +49,7 @@ const onLoad=()=>{
     displayData(data);
     })
 }
-
+//   display card 
 const displayData=(posts)=>{
     const getId=document.getElementById('showdata');
     getId.innerHTML="";
